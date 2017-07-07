@@ -32,7 +32,7 @@ export default class EscapeIt extends Component {
 
   fetchGameData() {
     if (this.state.id === '') return false;
-    fetch(`http://localhost:3000/games/${this.state.id}.json`)
+    fetch(`https://escape-it.herokuapp.com/games/${this.state.id}.json`)
       .then(res => res.json())
       .then((res) => {
         if (!res) return false;
