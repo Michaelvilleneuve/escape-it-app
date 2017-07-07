@@ -1,3 +1,3 @@
 import { AppRegistry } from 'react-native';
-import EscapeItApp from './EscapeIt';
+import EscapeIt from './EscapeIt';
 AppRegistry.registerComponent('EscapeItApp', () => EscapeIt);
